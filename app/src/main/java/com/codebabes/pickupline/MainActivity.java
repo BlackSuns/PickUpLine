@@ -22,16 +22,12 @@ public class MainActivity extends AppCompatActivity {
         cleanButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //sendLine(pickupLine);
+                Intent intent=new Intent(MainActivity.this, com.codebabes.pickupline.LineActivity.class);
+                startActivity(intent);
+
             }
         });
 
-    }
-
-    private void sendLine(/*String pickupLine*/){
-        Intent intent = new Intent(this, LineActivity.class);
-        //Intent.putExtra("Pickup Line", pickupLine);
-        startActivity(intent);
     }
 
 }
