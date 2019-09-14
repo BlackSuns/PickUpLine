@@ -1,2 +1,2 @@
 # PickUpLine
- Android app following CodeBabes
+ Android app.
