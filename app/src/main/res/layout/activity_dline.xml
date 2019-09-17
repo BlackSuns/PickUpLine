@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#DD172996"
-            app:srcCompat="@drawable/r" />
+            app:srcCompat="@drawable/r"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/textView"
@@ -24,12 +25,12 @@
             android:layout_height="match_parent"
             android:background="#95000000"
             android:padding="39dp"
-            android:text="You had me at Hello World!"
+            android:text="@string/you_have_something_on_your_as_my_eyes"
             android:textColor="#FFFFFF"
-            android:textSize="50dp" />
+            android:textSize="45dp" />
 
         <Button
-            android:id="@+id/cb"
+            android:id="@+id/db"
             android:layout_width="205dp"
             android:layout_height="62dp"
             android:layout_marginStart="100dp"
@@ -41,5 +42,6 @@
             android:text="REJECTED, TRY AGAIN"
             android:textColor="#FFFFFF"
             android:textSize="17dp" />
+
     </RelativeLayout>
 </LinearLayout>
